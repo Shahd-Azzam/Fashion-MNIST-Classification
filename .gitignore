@@ -1,0 +1,26 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Local MLflow database and run data
+mlruns/
+mlflow.db
+mlflow.db-journal
+mlflow.db-wal
+mlflow.db-shm/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
